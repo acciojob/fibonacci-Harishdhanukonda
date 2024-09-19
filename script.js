@@ -1,6 +1,5 @@
 function fibonacci(num) {
 // your code here
-	function fibonacci(num) {
     if (num === 1) {
         return 0;
     } else if (num === 2) {
@@ -15,6 +14,4 @@ function fibonacci(num) {
     }
     return a;
 }
-}
-
 module.exports = fibonacci;
